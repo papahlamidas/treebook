@@ -7,7 +7,7 @@
 
 	<fieldset>
 		<legend>Sign In</legend>
-    <%= f.input :email %>
+    <%= f.input :email, :autofocus => true %>
   	<%= f.input :password %>
 
   <% if devise_mapping.rememberable? -%>
@@ -23,4 +23,5 @@
 <div class="span8">
 	<h2>Signing in is easy and secure</h2>
 
+</div>
 </div>
